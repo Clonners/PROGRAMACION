@@ -1,0 +1,41 @@
+:root {
+    --light: #ffffff;
+    --grey: #fafafa;
+    --blue: #0095f6;
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.navbar {
+    min-height: 5rem;
+}
+
+a {
+    color: var(--blue);
+}
+
+i.lead {
+    font-size: 1.8rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.profile-picture {
+    background-image: url(./images/Profile\ picture.png);
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+}
